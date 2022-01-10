@@ -7,7 +7,7 @@ const client = require('twilio')(accountSid, authToken);
 client.messages.create(
     {
         body: 'You made your first twilio API. yay!',
-        from: ' +15707018972',
-        to: '+917989294810',
+        from: '', //enter the Twilio Number you bought
+        to: '', //enter the phone number you want to send sms
     }
 ).then(messages => console.log(message.accountSid));
